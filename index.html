@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/css/main.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Project tracking intro component</title>
+  </head>
+  <body>
+    <!-- Component container -->
+    <div class="component-container">
+      <!-- Header -->
+      <header class="header">
+        <div class="header__container">
+          <a href="#" class="header__logo"><img src="assets/img/logo.svg" alt="navigate to page top" /></a>
+          <nav class="header__nav">
+            <button class="header__nav-menu" aria-label="toggle menu" aria-expanded="false" aria-controls="menu-list" data-hamburger>
+              <span class="header__nav-menu-hamburger" aria-hidden="true"></span>
+            </button>
+            <ul id="menu-list" class="header__nav-list" data-nav>
+              <li class="header__nav-item"><a href="#" class="header__nav-link">Product</a></li>
+              <li class="header__nav-item"><a href="#" class="header__nav-link">Features</a></li>
+              <li class="header__nav-item"><a href="#" class="header__nav-link">Pricing</a></li>
+              <li class="header__nav-item" aria-hidden="true"><span class="header__nav-divider"></span></li>
+              <li class="header__nav-item"><a href="#" class="header__nav-link header__nav-link--gray">Login</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Intro -->
+      <main class="intro">
+        <div class="intro__container">
+          <div class="intro__hero">
+            <img src="assets/img/illustration-devices.svg" alt="" />
+          </div>
+          <section class="intro__content">
+            <div class="intro__new">
+              <span class="intro__new-icon">New</span>
+              <p class="intro__new-text">Monograph Dashboard</p>
+            </div>
+            <h1 class="intro__heading">Powerful insights into your team</h1>
+            <p class="intro__subheading">Project planning and time tracking for agile teams</p>
+            <div class="intro__cta">
+              <a href="#" class="intro__cta-link">Schedule a demo</a>
+              <p class="intro__cta-text">To see a preview</p>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>

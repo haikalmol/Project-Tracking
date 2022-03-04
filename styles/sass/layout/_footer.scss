@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  color: $c-blue-grayish;
+  font-size: 0.6rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  padding: 1rem;
+  margin-top: 4rem;
+
+  &__attribution {
+    text-align: center;
+  }
+
+  a {
+    color: $c-blue-grayish-dark;
+    text-decoration: none;
+    transition: color 250ms ease-in;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: $c-red;
+  }
+}
